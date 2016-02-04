@@ -32,5 +32,6 @@ Feedbloom will get the last updated feeds from the list of entries and show them
 - Add command line options for format, entries limit, feedfile path, and reader and printer times.
 - Test and test and test. How to test asyncio?
 
-[![PyPi version](https://pypip.in/v/$REPO/badge.png)](https://crate.io/packages/feedbloom/)
-[![PyPi downloads](https://pypip.in/d/$REPO/badge.png)](https://crate.io/packages/feedbloom/)
+
+[![Latest Version](https://pypip.in/version/feedbloom/badge.svg)](https://pypi.python.org/pypi/feedbloom/)
+[![PyPI downloads](https://pypip.in/download/feedbloom/badge.svg)](https://pypi.python.org/pypi/feedbloom/)
