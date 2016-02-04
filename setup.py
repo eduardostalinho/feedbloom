@@ -17,4 +17,6 @@ setup(name='feedbloom',
     ],
     entry_points={'console_scripts': ['feedbloom=feedbloom.feedbloom:main']},
     install_requires=['feedparser'],
-    zip_safe=False)
+    zip_safe=False,
+    url='http://github.com/eduardostalinho/feedbloom')
+
