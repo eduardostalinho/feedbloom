@@ -1,0 +1,6 @@
+*.swp
+__pycache__
+*.pyc
+env/
+feeds.txt
+*.egg-info/
