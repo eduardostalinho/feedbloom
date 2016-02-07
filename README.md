@@ -26,7 +26,6 @@ Feedbloom will get the last updated feeds from the list of entries and show them
 
 
 ## TODO:
-- Fix: New text does not owverwrite existing text if the last is longer.
 - Fix: Text that is longer than 1 line don't have the first line flushed.
 - Use with [i3wm](https://i3wm.org/)
 - Add command line options for format, entries limit, feedfile path, and reader and printer times.

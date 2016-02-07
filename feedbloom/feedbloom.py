@@ -6,6 +6,7 @@ from collections import deque
 import feedparser
 
 class FeedBloom(object):
+    line_len = 0
     entries = deque()
     _config_dir = os.path.join(os.path.join(os.environ.get('HOME'), '.config',), 'feedbloom/')
     feeds_file = os.path.join(_config_dir, 'feeds.txt')
@@ -44,8 +45,11 @@ class FeedBloom(object):
         return '{} - {} - {}'.format(self.format_time(entry.updated_parsed), entry.title, entry.link)
 
     def print_entry(self):
+        print(' ' * self.line_len, end='\r', flush=True)
         entry = self.get_entry()
-        print('{}'.format(self.format_entry(entry)), end="\r", flush=True)
+        formatted = self.format_entry(entry)
+        self.line_len = len(formatted)
+        print(formatted, end='\r', flush=True)
         self.entries.rotate()
         self.event_loop.call_later(5, self.print_entry)
 
