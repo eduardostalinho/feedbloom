@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='feedbloom',
-    version='0.1.2',
+    version='0.1.3',
     description='Feed Reader inspired by news channels bottom stripes.',
     url='http://github.com/eduardostalinho/feedbloom',
     author='Eduardo Stalinho',
