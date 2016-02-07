@@ -28,8 +28,8 @@ Feedbloom will get the last updated feeds from the list of entries and show them
 ## TODO:
 - Fix: Text that is longer than 1 line don't have the first line flushed.
 - Use with [i3wm](https://i3wm.org/)
-- Add command line options for format, entries limit, feedfile path, and reader and printer times.
-- Test and test and test. How to test asyncio?
+- Add command line option for datetime format.
+- Add source for each entry.
 
 
 [![Latest Version](https://pypip.in/version/feedbloom/badge.svg)](https://pypi.python.org/pypi/feedbloom/)
