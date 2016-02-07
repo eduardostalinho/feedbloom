@@ -22,6 +22,11 @@ To run, simply execute:
 feedbloom
 ```
 
+Getting command line help.
+```
+feedbloom -h
+```
+
 Feedbloom will get the last updated feeds from the list of entries and show them one at a time in the same line.
 
 

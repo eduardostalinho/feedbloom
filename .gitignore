@@ -5,3 +5,4 @@ env/
 feeds.txt
 *.egg-info/
 dist/
+build/
